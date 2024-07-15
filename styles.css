@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: blue;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* About Page Styles */
+.about-page img {
+    display: block;
+    margin: 20px auto;
+    height: auto;
+}
+
+/* Contact Page Styles */
+.contact-page img {
+    display: block;
+    margin: 20px auto;
+    height: 290px;
+}
+
+.contact-page table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.contact-page table, .contact-page th, .contact-page td {
+    border: 1px solid black;
+}
+
+.contact-page th, .contact-page td {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-page form input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.contact-page form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+   border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Home Page Styles */
+.home-page .salesmen {
+    font-weight: bold;
+}
+
+.home-page .cropped-image {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    clip-path: polygon(0 0, 80% 0, 80% 100%, 0 100%);
+}
+
+.home-page img {
+    width: 230px;
+    border-radius: 80px;
+}
+
+/* Styling for all headers and paragraphs */
+h1, h2, p {
+   float: center;
+    margin: 10px 0;
+}
+
+/* Specific ID selectors for unique elements */
+#main-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+}
