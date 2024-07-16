@@ -22,7 +22,7 @@ header, footer {
 
 /* About Page Styles */
 .about-page img {
-    display: block;
+    display: auto;
     margin: 20px auto;
     height: auto;
 }
@@ -98,6 +98,7 @@ h1, h2, p {
 }
 
 #footer {
+  font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin-top: 20px;
 }
